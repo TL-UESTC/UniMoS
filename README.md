@@ -1,2 +1,16 @@
 # UniMoS
-Pytorch implementation of CVPR2024 paper  Split to Merge: Unifying Separated Modalities for Unsupervised Domain Adaptation
+Pytorch implementation of **Split to Merge: Unifying Separated Modalities for Unsupervised Domain Adaptation** *(CVPR'24)*
+
+[fig2_v3.pdf](https://github.com/TL-UESTC/UniMoS/files/14505556/fig2_v3.pdf)
+
+- Requirements
+```
+python==3.8
+pytorch==1.12
+```
+
+- How to run:
+1. Install [CLIP](https://github.com/openai/CLIP)
+2. Put Office-Home dataset under `./dataset/OfficeHome`
+3. run by `python main.py --source [SOURCE] --target [TARGET]`
+4. Check results in `./log/`
