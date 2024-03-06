@@ -1,7 +1,7 @@
 # UniMoS
 Pytorch implementation of **Split to Merge: Unifying Separated Modalities for Unsupervised Domain Adaptation** *(CVPR'24)*
 
-[fig2_v3.pdf](https://github.com/TL-UESTC/UniMoS/files/14505556/fig2_v3.pdf)
+![image](https://github.com/TL-UESTC/UniMoS/assets/68037940/9ccf16a0-8442-472c-851f-6b50093dc64c)
 
 - Requirements
 ```
