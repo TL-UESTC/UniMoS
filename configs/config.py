@@ -238,7 +238,7 @@ def update_config(config, args):
         if args.decay2 != 0:
             config.TRAIN.DECAY2 = args.decay2
     except:
-        print("Coonfig updated")
+        print("Config updated")
 
     config.freeze()
 
